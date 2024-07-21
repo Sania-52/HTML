@@ -1,0 +1,71 @@
+<!DOCTYPE html> <!-- title attribute-->
+<html lang="">  <!-- Language Attribute-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 Learning</title>
+</head>
+<body>
+    <h1>Hello world</h1>
+    
+    <text> <b>Login form: </b></text>
+    <form method="POST" action="api/login">
+        <label for="mail">Email: </label>
+        <input type="email" id="mail" name="mail">
+        <br/>
+        <label for="pw">Password: </label>
+        <input type="password" id="pw" name="pw">
+        <br/>
+        <input type="submit" value="Login">
+        <br/>
+        <input type="checkbox" id="ck" name="ck">
+        <label for="ck">Remember me</label>
+        <br/>
+        <label for="textarea">Any questions:</label>
+        <input type="text" rows="2" cols="30" id="address" name="address">
+        <br/>
+      </form>
+
+
+      <text><b>Gender: </b></text>
+      <input type="radio" name="gender" id="m">
+      <label for="m">Male</label>
+      <input type="radio" name="gender" id="f">   <!-- radio buttons-->
+      <label for="f">Female</label>
+      <br/>
+
+      <text><b>Education:</b></text>
+      <label for="education">Qualification:</label>
+      <select name="education" id="education">
+      <option value="1">BE /B.Tech equivalent</option>  <!-- checkboxes -->
+      <option value="2">ME / M.Tech equivalent</option>
+      <option value="3">High School or Diploma</option>
+      </select>
+      <br/>
+
+      <text>Choose file:</text>
+      <label for="file" id="file">  <!-- input file-->
+      <input type="file">
+      </label>
+      <br/>
+
+      <text><b> Input types:</b></text>
+      <label for="input1" id="1">
+      <input type="button" value="Reset" style="background-color: red;color:white">
+      </label>
+      <label for="input2" id="2">
+      <input type="button" value="Submit" style="background-color:green; color: white;">
+      </label>
+      <label for="input3" id="3">
+      <input type="date" value="dd/mm/yyyy" style="color: black;">
+      </label>
+      <label for="input4" id="4">
+      <input type="url" value=" " style="color:black">
+      </label>
+      <label for="input5" id="5">
+        <input type="search" value=" " style="color: black;">
+      </label>
+
+</body>
+</html>
